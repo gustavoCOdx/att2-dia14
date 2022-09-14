@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cursiva', sans-serif;
+}
+
+body{
+    background-color: rgb(38, 38, 120);
+}
+
+.calculator {
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(76, 0, 146);
+}
+
+table td {
+    display: inline-block;
+}
+
+.btn {
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(69, 68, 68);
+    color: aliceblue;
+    font-size: 16px;
+    transition: all 500ms ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.ac {
+    background-color: rgb(187, 132, 65);
+}
+
+.ac:hover {
+    background-color: blue;
+}
+
+.especial {
+    background-color: rgb(178, 66, 66);
+}
+
+.espacial:hover {
+    background-color: blue;
+}
+
+.igual {
+    background-color: brown;
+}
+
+.igual:hover {
+    background-color: brown;
+}
+
+.result {
+    height: 100px;
+    color: aliceblue;
+    text-align: right;
+    font-size: 35px;
+    word-wrap: break-word;
+    border-bottom: 1px solid #35968a;
+}
